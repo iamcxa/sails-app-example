@@ -20,11 +20,12 @@
     "@sailshq/eslint": "^4.19.3",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
-    "sails": "~1.0.2",
+    "sails": "~1.1.0",
     "supertest": "^3.3.0"
   },
   "dependencies": {
     "faker": "^4.1.0",
+    "lodash": "^4.17.11",
     "sails-util-micro-apps": "git+https://github.com/MoreAppio/sails-util-micro-apps.git"
   },
   "sails": {
