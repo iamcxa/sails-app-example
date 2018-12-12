@@ -1,0 +1,33 @@
+{
+  "name": "sails-project-example",
+  "version": "0.1.0",
+  "description": "example Project for sails-util-micro-apps",
+  "main": "index.js",
+  "author": "Kent Chen",
+  "keywords": [
+    "sails",
+    "sails.js",
+    "sails-hook",
+    "loader",
+    "mvc",
+    "hook"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamcxa/sails-project-example"
+  },
+  "devDependencies": {
+    "@sailshq/eslint": "^4.19.3",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "sails": "~1.0.2",
+    "supertest": "^3.3.0"
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "sails-util-micro-apps": "git+https://github.com/MoreAppio/sails-util-micro-apps.git"
+  },
+  "sails": {
+    "isHook": true
+  }
+}

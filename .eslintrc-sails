@@ -1,0 +1,8 @@
+{
+  "globals": {
+    "Member": true,
+    "Post": true,
+    "Topic": true,
+    "ExampleService": true
+   }
+}
